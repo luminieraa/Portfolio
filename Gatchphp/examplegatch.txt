@@ -1,0 +1,10 @@
+CREATE TABLE `examplegatch`.`graduates` 
+( `studentID` INT(15) NOT NULL ,
+ `studentName` varchar(30) NOT NULL , 
+ `course` varchar(30) NOT NULL , 
+ `date` DATETIME NOT NULL ) 
+ ENGINE = InnoDB;
+
+
+INSERT INTO `graduates`(`studentID`, `studentName`, `course`, `date`) VALUES 
+('1','Gatchalian','BSIT','2022-11-14 8:40:01')
